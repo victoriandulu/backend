@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.Nav{
+  background-color :whitesmoke;
   color: white;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0px 1px;
+  margin: 0px;
+ 
 }
+.Nav link{
+  padding: 0;
+  list-style: none;
+  display:flex;
+  margin: 0;
+  gap: 1rem;
+  
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
+.Auth-form-container{
+  justify-content: center;
+  text-align: centerd;
+  display: flex;
+  padding: 90px 0 90px 0 ;
+  background-color: white;
+}
+.Auth-form{
+  display: flex;
+  justify-content: center;
+  height: 550px;
+  width: 35%;
+  box-shadow: 11px 12px 13px 12px rgb(207 207 207);
+  padding-top: 30px;
+  border-radius: 60px;
+  background-color: white;
+
+}
+input{
+  height: 50px;
+  width: 300px;
+  border-radius: 60px;
+  box-shadow: inset 0px 0px 25px 0px;
+  border: none;
+  outline: none;}
+  button{
+    height: 50px;
+    width: 150px;
+    padding-top: px;
+    border-radius: 60px;
+    background-color: purple;
+    color: white;
+    font-size: 25px;
+    border: none;
+  
+  }
+  
+  .form-control mt-1{
+    padding-left: 70px;
+    font-size: 20px; 
+   }
+  
+  .second-input{
+    padding-top: 20px;
+  }
+  .login-button{
+    padding-top: 25px;
+  }
